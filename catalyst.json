@@ -1,0 +1,9 @@
+{
+  "client": {
+    "source": "client/app-out/dist",
+    "scripts": {
+      "preserve": "cd .. && cd .. && cd next-starter-app && npm run build && npm run clean && npm run pack",
+      "predeploy": "cd .. && cd .. && cd next-starter-app && npm run build && npm run clean && npm run pack"
+    }
+  }
+}
